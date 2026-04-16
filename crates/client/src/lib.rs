@@ -3,6 +3,7 @@ mod interceptor;
 mod manager;
 mod system;
 mod watcher;
+mod history;
 
 use std::fmt;
 
@@ -15,6 +16,7 @@ pub use self::{
     manager::Manager,
     system::System,
     watcher::Watcher,
+    history::History,
 };
 
 // Tonic's default max receive message size (4MB)

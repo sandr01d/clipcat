@@ -38,6 +38,8 @@ pub use self::proto::{
     system_server::{System, SystemServer},
     watcher_client::WatcherClient,
     watcher_server::{Watcher, WatcherServer},
+    history_client::HistoryClient,
+    history_server::{History, HistoryServer},
 };
 
 impl From<ClipboardKind> for clipcat_base::ClipboardKind {
